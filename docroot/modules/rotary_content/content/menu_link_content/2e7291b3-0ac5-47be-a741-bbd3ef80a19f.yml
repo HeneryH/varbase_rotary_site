@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2e7291b3-0ac5-47be-a741-bbd3ef80a19f
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    5ecced97-b34a-43ec-a97f-30fd48d46408: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'In the press'
+  description:
+    -
+      value: 'Rotary in the press'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 2
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:5ecced97-b34a-43ec-a97f-30fd48d46408'
+  revision_translation_affected:
+    -
+      value: true

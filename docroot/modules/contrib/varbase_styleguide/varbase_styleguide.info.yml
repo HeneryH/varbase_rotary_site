@@ -1,0 +1,9 @@
+name: 'Varbase Styleguide'
+description: 'Varbase custom styling guide components.'
+type: module
+package: Varbase
+core_version_requirement: ^9
+dependencies:
+  - styleguide:styleguide
+install:
+  - vmi

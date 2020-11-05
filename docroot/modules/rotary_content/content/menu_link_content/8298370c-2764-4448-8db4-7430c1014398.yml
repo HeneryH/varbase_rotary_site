@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 8298370c-2764-4448-8db4-7430c1014398
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    01d36c36-c8c1-4869-b347-f3db003985f6: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Volunteer
+  description:
+    -
+      value: 'Short-term help is always appreciated'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 5
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:01d36c36-c8c1-4869-b347-f3db003985f6'
+  revision_translation_affected:
+    -
+      value: true

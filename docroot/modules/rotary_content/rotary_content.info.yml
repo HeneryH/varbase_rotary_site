@@ -1,0 +1,42 @@
+name: 'Rotary Content'
+type: module
+description: 'Default content for Rotary Club themes'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'rotary_content'
+dependencies:
+  - default_content
+default_content:
+  menu_link_content: 
+    - 1ca63f30-688d-449d-9aac-a78f25e5a08a  
+    - 46d9188e-778a-449a-a5ab-31fb199e4d38 
+    - 2c872a9d-fe6a-4c5b-a2f2-298df2f6e154
+    - f4ea141a-9f51-4de7-a058-b67defd3aa39  
+    - 4d4b6267-acf3-44be-a877-58e9fa83f9d2 
+    - 9ece7715-b169-4bed-89d3-3ec4aa49fae3
+    - 59661b9c-7951-428a-9518-7d009e382eca  
+    - 6c5e3a0d-c0cc-44e2-a61a-8b71a64080f3 
+    - f8bf4cfb-6689-42fe-9bef-f75c285aee0d
+
+    - b76903de-9cd3-4ff4-932d-3e847fbb1a4f  
+    - af194d06-75d4-4e38-a6ae-00e32c15a351 
+    - 82a7307d-a44a-4886-a95e-100f0a41fe47
+    - fbee3b57-cc3e-4e25-b351-a9e42bcba0b1  
+
+    - 01d36c36-c8c1-4869-b347-f3db003985f6
+    - 67ed3924-6c5a-4a15-9f51-0a03f5413ba7  
+    - 4669d495-52ed-486e-85c6-e6ed9074a3af 
+    - b98369c0-906d-4ab6-a111-065bc4cec2d5
+    - b5e80d91-0999-4afa-becc-491f2220a746  
+    - 8298370c-2764-4448-8db4-7430c1014398 
+
+    - 5ecced97-b34a-43ec-a97f-30fd48d46408  
+    - 2a39bb4a-7085-48b6-a5cf-df24d7a7f2d3 
+    - 2e7291b3-0ac5-47be-a741-bbd3ef80a19f
+    - 7f73752f-c832-4e1b-b7df-5c75073b44f7  
+    - 663659f3-5cae-47d0-8606-cd2909657982 
+    - 8e02c928-e2d4-42e0-90c0-d5b02981cc0d
+
+    - 3b2199d2-13ba-4548-8131-3c45c6078df9 
+    - ba230a70-1cdb-41bd-b67c-8dae5802c25f
+    - e11ecb20-604a-4740-96ba-8a1c3e6ce29b  

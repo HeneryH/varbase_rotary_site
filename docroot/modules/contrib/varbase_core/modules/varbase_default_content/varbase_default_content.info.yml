@@ -1,0 +1,8 @@
+name: 'Varbase default content'
+type: module
+hidden: TRUE
+package: Varbase
+core_version_requirement: ^8 || ^9
+description: 'Provides starter default content for varbase.'
+dependencies:
+  - default_content:default_content

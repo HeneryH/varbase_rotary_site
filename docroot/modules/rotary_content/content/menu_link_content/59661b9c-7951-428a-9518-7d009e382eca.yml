@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 59661b9c-7951-428a-9518-7d009e382eca
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    1ca63f30-688d-449d-9aac-a78f25e5a08a: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Downloads
+  description:
+    -
+      value: 'Files of interest'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 6
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:1ca63f30-688d-449d-9aac-a78f25e5a08a'
+  revision_translation_affected:
+    -
+      value: true

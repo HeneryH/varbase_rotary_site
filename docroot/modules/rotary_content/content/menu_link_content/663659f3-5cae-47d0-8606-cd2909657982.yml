@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 663659f3-5cae-47d0-8606-cd2909657982
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    5ecced97-b34a-43ec-a97f-30fd48d46408: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Member blogs'
+  description:
+    -
+      value: 'Personal stories from our members'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 4
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:5ecced97-b34a-43ec-a97f-30fd48d46408'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: e11ecb20-604a-4740-96ba-8a1c3e6ce29b
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    3b2199d2-13ba-4548-8131-3c45c6078df9: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Calendar
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 3
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:3b2199d2-13ba-4548-8131-3c45c6078df9'
+  revision_translation_affected:
+    -
+      value: true

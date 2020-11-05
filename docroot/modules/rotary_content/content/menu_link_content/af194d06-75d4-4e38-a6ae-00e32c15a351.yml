@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: af194d06-75d4-4e38-a6ae-00e32c15a351
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    b76903de-9cd3-4ff4-932d-3e847fbb1a4f: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Rotary Overview'
+  description:
+    -
+      value: 'About our global organization'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 1
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:b76903de-9cd3-4ff4-932d-3e847fbb1a4f'
+  revision_translation_affected:
+    -
+      value: true

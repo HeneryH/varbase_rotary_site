@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fbee3b57-cc3e-4e25-b351-a9e42bcba0b1
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    b76903de-9cd3-4ff4-932d-3e847fbb1a4f: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'The Rotary Foundation'
+  description:
+    -
+      value: 'The foundation and its benefactors'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 3
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:b76903de-9cd3-4ff4-932d-3e847fbb1a4f'
+  revision_translation_affected:
+    -
+      value: true
